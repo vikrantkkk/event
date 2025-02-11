@@ -138,7 +138,7 @@ const Hero = () => {
           </div>
           <div className="md:flex hidden flex-col md:gap-8 gap-4">
             <CustomButton4 />
-            <CustomButton3 />
+            {/* <CustomButton3 /> */}
           </div>
           <div className="w-full flex items-center justify-center md:hidden">
             <CustomButton />

@@ -8,7 +8,7 @@ const GrabSeat = () => {
     <div className="flex flex-col dark:border-none md:border-b-2 gap-8 md:gap-12 justify-center dark:bg-darkBackGround bg-[#F1F1F1] items-center md:py-8">
       <div className="md:flex hidden flex-col md:gap-8 gap-4">
         <CustomButton4 />
-        <CustomButton3 />
+        {/* <CustomButton3 /> */}
       </div>
       <div className="md:hidden flex md:flex-row w-full flex-col justify-center md:items-start items-center md:gap-8 gap-4">
         <CustomButtonForMobile />

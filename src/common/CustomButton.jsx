@@ -15,7 +15,7 @@ const CustomButton = () => {
       {/* Left Button 1: Gradient Background with Box Shadow */}
       <button
         onClick={handleClickEnglish}
-        className="p-4 text-black rounded-md w-[300px] transition-all duration-300"
+        className="p-4 text-black rounded-md md:w-[370px] w-[350px] transition-all duration-300"
         style={{
           background: "linear-gradient(180deg, #58FF29, #31DE00, #26AD00 100%)", // Gradient for Left Button 1
           boxShadow:
@@ -36,7 +36,7 @@ const CustomButton = () => {
       </button>
 
       {/* Left Button 2: Gradient Background with Box Shadow */}
-      <button
+      {/* <button
         onClick={handleClickHindi}
         className="p-4 text-white rounded-md w-[300px] transition-all duration-300" // Added margin-left for gap
         style={{
@@ -56,7 +56,7 @@ const CustomButton = () => {
         }
       >
         Join Now (Hindi) at <span className="line-through">₹499</span> ₹199
-      </button>
+      </button> */}
     </div>
   );
 };

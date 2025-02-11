@@ -70,7 +70,7 @@ const CustomButtonForMobile = () => {
           Join Now (English) at <span className="line-through">₹499</span> ₹199
         </button>
       </div>
-      <div
+      {/* <div
         className="flex justify-center items-center gap-2 flex-col border-2 border-[#007AFF] p-4 rounded-md"
         onClick={handleClickHindi}
       >
@@ -93,7 +93,7 @@ const CustomButtonForMobile = () => {
         >
           Join Now (Hindi) at <span className="line-through">₹499</span> ₹199
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };
