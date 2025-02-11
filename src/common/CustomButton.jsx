@@ -3,7 +3,7 @@ import { useWebinarData } from "../hooks/WebinarContext";
 
 const CustomButton = () => {
   const { webinarData } = useWebinarData();
-
+ 
   const handleClickHindi = () => {
     window.open(webinarData?.invest, "_blank");
   };
