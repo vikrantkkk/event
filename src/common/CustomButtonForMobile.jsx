@@ -8,7 +8,7 @@ const CustomButtonForMobile = () => {
     window.open(webinarData?.invest, "_blank");
   };
   const handleClickEnglish = () => {
-    window.open(webinarData?.investing, "_blank");
+    window.open(webinarData?.event_event_webinar_url, "_blank");
   };
 
   const formatDateTime = (dateString) => {
@@ -38,7 +38,7 @@ const CustomButtonForMobile = () => {
     return `${formattedDate} | ${formattedTime}`;
   };
 
-  const formattedDateTimeEng = formatDateTime(webinarData?.webinar_date_time);
+  const formattedDateTimeEng = formatDateTime(webinarData?.event_event_date_time);
   const formattedDateTimeHin = formatDateTime(
     webinarData?.hindi_webinar_date_time
   );

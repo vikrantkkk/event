@@ -8,7 +8,7 @@ const CustomButton = () => {
     window.open(webinarData?.invest, "_blank");
   };
   const handleClickEnglish = () => {
-    window.open(webinarData?.investing, "_blank");
+    window.open(webinarData?.event_event_webinar_url, "_blank");
   };
   return (
     <div className="flex md:flex-row flex-col gap-4 font-bold">

@@ -30,8 +30,8 @@ const Header = () => {
             <a
               href={
                 darkMode
-                  ? webinarData?.invest
-                  : webinarData?.investing
+                  ? webinarData?.event_event_webinar_url
+                  : webinarData?.event_event_webinar_url
               }
               target="_blank"
               rel="noopener noreferrer"
@@ -93,8 +93,8 @@ const Header = () => {
             <a
               href={
                 darkMode
-                  ? webinarData?.invest
-                  : webinarData?.investing
+                  ? webinarData?.event_event_webinar_url
+                  : webinarData?.event_event_webinar_url
               }
               target="_blank"
               rel="noopener noreferrer"

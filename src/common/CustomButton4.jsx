@@ -6,7 +6,7 @@ const CustomButton4 = () => {
   const { webinarData } = useWebinarData();
 
   const handleClick = () => {
-    window.open(webinarData?.investing)
+    window.open(webinarData?.event_event_webinar_url)
   };
 
   const formatDateTime = (dateString) => {
@@ -37,7 +37,7 @@ const CustomButton4 = () => {
     return `${formattedDate} | ${formattedTime}`;
   };
 
-  const formattedDateTime = formatDateTime(webinarData.webinar_date_time);
+  const formattedDateTime = formatDateTime(webinarData?.event_event_date_time);
 
   return (
     <div className="flex font-bold" onClick={handleClick}>

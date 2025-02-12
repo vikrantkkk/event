@@ -44,7 +44,7 @@ const Footer = () => {
     return `${formattedDate} , ${formattedTime}`;
   };
 
-  const formattedDateTime = formatDateTime(webinarData?.webinar_date_time);
+  const formattedDateTime = formatDateTime(webinarData?.event_event_date_time);
 
   return (
     <footer
@@ -152,7 +152,7 @@ const Footer = () => {
             className="py-3 px-4 font-semibold text-[16px] leading-[19px] rounded-full bg-white text-black"
             onClick={() =>
               window.open(
-                webinarData?.investing,
+                webinarData?.event_event_webinar_url,
                 "_blank",
                 "noopener,noreferrer"
               )
@@ -163,7 +163,7 @@ const Footer = () => {
           <button
             className="py-3 px-4 font-semibold text-[16px] leading-[19px] rounded-full bg-white text-black"
             onClick={() =>
-              window.open(webinarData?.invest, "_blank", "noopener,noreferrer")
+              window.open(webinarData?.event_event_webinar_url, "_blank", "noopener,noreferrer")
             }
           >
             Join Now (Hindi)
@@ -187,7 +187,7 @@ const Footer = () => {
             className="flex justify-center items-center gap-4 py-3 px-8 font-semibold text-[20px] leading-[19px] rounded-md bg-white text-black hover:shadow-xl transition-all duration-300"
             onClick={() =>
               window.open(
-                webinarData?.investing,
+                webinarData?.event_event_webinar_url,
                 "_blank",
                 "noopener,noreferrer"
               )
@@ -198,7 +198,7 @@ const Footer = () => {
           <button
             className="flex justify-center items-center gap-4 py-3 px-8 font-semibold text-[20px] leading-[19px] rounded-md bg-white text-black hover:shadow-xl transition-all duration-300"
             onClick={() =>
-              window.open(webinarData?.invest, "_blank", "noopener,noreferrer")
+              window.open(webinarData?.event_event_webinar_url, "_blank", "noopener,noreferrer")
             }
           >
             Join Now (Hindi) <EastIcon />

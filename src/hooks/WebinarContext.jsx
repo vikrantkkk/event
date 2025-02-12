@@ -11,6 +11,8 @@ export const WebinarProvider = ({ children }) => {
     investing: null,
     webinar_date_time: null,
     hindi_webinar_date_time: null,
+    event_event_webinar_url: null,
+    event_event_date_time: null,
   });
 
   // Fetch Webinar Data from API
@@ -27,6 +29,8 @@ export const WebinarProvider = ({ children }) => {
           investing: data?.investing || null,
           webinar_date_time: data?.webinar_date_time || null,
           hindi_webinar_date_time: data?.hindi_webinar_date_time || null,
+          event_event_webinar_url: data?.event_event_webinar_url || null,
+          event_event_date_time: data?.event_event_date_time || null,
         });
       } else {
         console.error("Unexpected response format:", response);
