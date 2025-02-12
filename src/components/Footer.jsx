@@ -195,14 +195,14 @@ const Footer = () => {
           >
             Join Now (English) <EastIcon />
           </button>
-          <button
+          {/* <button
             className="flex justify-center items-center gap-4 py-3 px-8 font-semibold text-[20px] leading-[19px] rounded-md bg-white text-black hover:shadow-xl transition-all duration-300"
             onClick={() =>
               window.open(webinarData?.event_event_webinar_url, "_blank", "noopener,noreferrer")
             }
           >
             Join Now (Hindi) <EastIcon />
-          </button>
+          </button> */}
         </div>
       </div>
     </footer>
